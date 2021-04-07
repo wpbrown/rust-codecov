@@ -1,0 +1,12 @@
+{
+  "files": [
+    {"file": "/home/ubuntu/dev/rust-codecov/codecovsample/src/main.rs", "percent_covered": "76.19", "covered_lines": "96", "total_lines": "126"}
+  ],
+  "percent_covered": "76.19",
+  "covered_lines": 96,
+  "total_lines": 126,
+  "percent_low": 25,
+  "percent_high": 75,
+  "command": "codecovsample-19b3db8761c0dbbf",
+  "date": "2021-04-07 21:22:39"
+}
