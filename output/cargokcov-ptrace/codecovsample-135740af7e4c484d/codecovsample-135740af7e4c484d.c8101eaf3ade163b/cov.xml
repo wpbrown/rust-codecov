@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
-<coverage line-rate="0.762" lines-covered="96" lines-valid="126" branch-rate="1.0" branches-covered="1.0" branches-rate="1.0" complexity="1.0" version="1.9" timestamp="1617830559">
+<coverage line-rate="0.762" lines-covered="96" lines-valid="126" branch-rate="1.0" branches-covered="1.0" branches-rate="1.0" complexity="1.0" version="1.9" timestamp="1618277905">
 	<sources>
 		<source>/home/ubuntu/dev/rust-codecov/codecovsample/src/main.rs/</source>
 	</sources>
 	<packages>
-		<package name="codecovsample_19b3db8761c0dbbf" line-rate="0.762" lines-covered="96" lines-valid="126" branch-rate="1.0" complexity="1.0">
+		<package name="codecovsample_135740af7e4c484d" line-rate="0.762" lines-covered="96" lines-valid="126" branch-rate="1.0" complexity="1.0">
 			<classes>
 				<class name="main_rs" filename="/home/ubuntu/dev/rust-codecov/codecovsample/src/main.rs" branch-rate="1.0" complexity="1.0" line-rate="0.762">
 					<lines>

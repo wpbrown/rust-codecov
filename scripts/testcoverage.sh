@@ -28,6 +28,7 @@ rm -r $OUTPUT_DIR/../output/*
     llvm-cov report --instr-profile=${COVERAGE_DATA_DIR}/merged.profdata ${OBJECT_OPTIONS} --summary-only --ignore-filename-regex=/.cargo/ --ignore-filename-regex=/rustc/ > ${OUTPUT_DIR}/llvm-profraw/report.txt
     llvm-cov show --instr-profile=${COVERAGE_DATA_DIR}/merged.profdata ${OBJECT_OPTIONS} --ignore-filename-regex=/.cargo/ --ignore-filename-regex=/rustc/ --show-line-counts-or-regions --Xdemangler=rustfilt > ${OUTPUT_DIR}/llvm-profraw/source.txt
     llvm-cov show --use-color --instr-profile=${COVERAGE_DATA_DIR}/merged.profdata ${OBJECT_OPTIONS} --ignore-filename-regex=/.cargo/ --ignore-filename-regex=/rustc/ --show-line-counts-or-regions --Xdemangler=rustfilt > ${OUTPUT_DIR}/llvm-profraw/source-color.txt
+    llvm-cov export --instr-profile=${COVERAGE_DATA_DIR}/merged.profdata ${OBJECT_OPTIONS} --ignore-filename-regex=/.cargo/ --ignore-filename-regex=/rustc/ -Xdemangler=rustfilt > ${OUTPUT_DIR}/llvm-profraw/cov.lcov
 )
 
 ### profile-based grcov

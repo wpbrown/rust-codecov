@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
-<coverage line-rate="0.762" lines-covered="96" lines-valid="126" branch-rate="1.0" branches-covered="1.0" branches-rate="1.0" complexity="1.0" version="1.9" timestamp="1617830559">
+<coverage line-rate="0.762" lines-covered="96" lines-valid="126" branch-rate="1.0" branches-covered="1.0" branches-rate="1.0" complexity="1.0" version="1.9" timestamp="1618277905">
 	<sources>
 		<source>/home/ubuntu/dev/rust-codecov/codecovsample/src/main.rs/</source>
 	</sources>

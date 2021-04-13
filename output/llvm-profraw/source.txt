@@ -74,9 +74,9 @@
    62|      1|        println!("default_covered");
    63|      1|    }
    64|       |    
-   65|       |    fn default_uncovered(&self) {
-   66|       |        println!("default_uncovered");
-   67|       |    }
+   65|      0|    fn default_uncovered(&self) {
+   66|      0|        println!("default_uncovered");
+   67|      0|    }
    68|       |}
    69|       |
    70|       |struct ATraitImplDirect;
@@ -125,9 +125,9 @@
   113|      1|        println!("covered")
   114|      1|    }
   115|       |
-  116|       |    fn uncovered(&self) {
-  117|       |        println!("uncovered");
-  118|       |    }
+  116|      0|    fn uncovered(&self) {
+  117|      0|        println!("uncovered");
+  118|      0|    }
   119|       |}
   120|       |
   121|       |macro_rules! simple_rule {
@@ -172,9 +172,9 @@
   160|      1|        async_func_from_trait_covered().await;
   161|      1|    }
   162|       |
-  163|       |    async fn uncovered(&self) {
-  164|       |        println!("uncovered");
-  165|       |    }
+  163|      0|    async fn uncovered(&self) {
+  164|      0|        println!("uncovered");
+  165|      0|    }
   166|       |}
   167|       |
   168|      1|async fn async_func_from_trait_covered() {
